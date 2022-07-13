@@ -31,7 +31,7 @@ tags=wkt,raster,hello world
 
 ; these metadata can be empty, they will eventually become mandatory.
 homepage=https://www.itopen.it
-icon=logo512.png
+icon=icon512.png
 
 ; experimental flag (applies to the single version)
 experimental=True
