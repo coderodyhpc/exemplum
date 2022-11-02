@@ -26,13 +26,13 @@ class TailoredWidget(QWidget):
 #        self.tabs.tabBar.setTabTextColor(1, color: #AA004F)
         self.tab1 = QWidget()
 #        self.tab1.setStyleSheet('''QTabBar::tab {font-size: 15pt; color: #55004F; height: 40px; width: 140px;}''')
-        self.tab1.tabBar.setTabTextColor(color: #55004F)
+        self.tab1.tabBar.setTabTextColor(#55004F)
         self.tab2 = QWidget()
 #        self.tab2.setStyleSheet('''QTabBar::tab {font-size: 20pt; color: #AA004F; height: 40px; width: 140px;}''')
-        self.tab1.tabBar.setTabTextColor(color: #AA004F)
+        self.tab1.tabBar.setTabTextColor(#AA004F)
         self.tab3 = QWidget()
 #        self.tab3.setStyleSheet('''QTabBar::tab {font-size: 25pt; color: #FF004F; height: 40px; width: 140px;}''')
-        self.tab1.tabBar.setTabTextColor(color: #FF004F)
+        self.tab1.tabBar.setTabTextColor(#FF004F)
 
         # Add tabs
         self.tabs.addTab(self.tab1,"TAB 1")
